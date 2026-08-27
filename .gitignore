@@ -1,4 +1,11 @@
 #.gitignore template: "Node"(note I added)
+#files that contain potentially copyrighted code
+/mappings/generated/ #everything in there
+/mappings/downloads/ #that's just the orginal downloaded source
+/mappings/workspace #deobuscated soorce
+
+#the things below are part of the template.
+
 # Logs
 logs
 *.log
